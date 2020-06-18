@@ -1,0 +1,26 @@
+digraph "pylintgraph" {
+rankdir=LR
+charset="utf-8"
+URL="." node[shape="box"]
+"docutils" [];
+"sphinxcontrib.autophpdoc" [];
+"docutils.parsers.rst.directives" [];
+"docutils.statemachine" [];
+"lxml.etree" [];
+"pbr.version" [];
+"sphinx" [];
+"sphinx.application" [];
+"sphinx.errors" [];
+"sphinx.util.docutils" [];
+"sphinx.util.nodes" [];
+"sphinxcontrib.autophpdoc" -> "docutils" [];
+"sphinxcontrib.autophpdoc" -> "docutils.parsers.rst.directives" [];
+"sphinxcontrib.autophpdoc" -> "docutils.statemachine" [];
+"sphinxcontrib.autophpdoc" -> "lxml.etree" [];
+"sphinxcontrib.autophpdoc" -> "pbr.version" [];
+"sphinxcontrib.autophpdoc" -> "sphinx" [];
+"sphinxcontrib.autophpdoc" -> "sphinx.application" [];
+"sphinxcontrib.autophpdoc" -> "sphinx.errors" [];
+"sphinxcontrib.autophpdoc" -> "sphinx.util.docutils" [];
+"sphinxcontrib.autophpdoc" -> "sphinx.util.nodes" [];
+}
